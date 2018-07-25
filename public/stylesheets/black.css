@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:whitesmoke;
+}
+
+iframe {
+  width: 100%;
+}
+
+.botui-app-container {
+  margin-top: 40px;
+  width: 410px;
+  height: 500px;
+}
+
+.botui-container {
+  background-color: whitesmoke;
+}
+.botui-message-content {
+  color:white; 
+background: gray;
+}
+
+.botui-message-content.human {
+  background-color: #3498DB;
+background: rgb(59,103,158); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.botui-actions-text-input {
+  color:black;
+  border-bottom: 1px solid #3498DB;
+  margin: 0;
+}
+
+.botui-actions-buttons-button {
+  line-height: 1 !important;
+  background-color: gray;
+}
+
+.botui-message-content-link {
+  color: #F1C40F;
+}
+
+.botui-messages-container {
+  padding: 30px 0px;
+}
