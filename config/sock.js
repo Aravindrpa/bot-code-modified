@@ -19,7 +19,9 @@ io.on('connection', function (socket) {
     console.log(data.client);
          api.getRes(data.client).then(function(res){
            console.log('response', res);
+           //TODO: Take multiple mesages from array and send as multiple responses
             socket.emit('fromServer', { server: res });
+            socket.emit('fromServer', { server: "Hey this is a dummy message from 'sock.js' ;-)" });
          });
   });
 });
